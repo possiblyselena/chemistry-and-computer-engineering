@@ -76,9 +76,15 @@ a {
 
 p1 {
     font-size: 1.75em;
-    color: #f1c40f;
+    color: #ffffff;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
     line-height: 1.5;
+    margin-top: 2em;
+}
+
+p2 {
+    color: #ffffff;
 }
 
 .introduction {
@@ -93,6 +99,10 @@ p1 {
     display: grid;
     align-items: center;
     justify-items: center;
+}
+
+.definition {
+
 }
 
 
