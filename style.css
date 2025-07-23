@@ -87,6 +87,12 @@ p2 {
     color: #ffffff;
 }
 
+model-viewer {
+    width: 600px;
+    height: 600px;
+    
+}
+
 .introduction {
     background-image: url("assets/cuttingmat.jpg");
     background-size: cover;
@@ -94,15 +100,26 @@ p2 {
     margin: 3em;
     border-radius: 10px;
     border: 5px solid #ffffffff;
-    grid-template-columns: 1fr 1fr;
     padding: 2em;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.section {
+    color: #ffffff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
 
 .definition {
-
+    background-color: #8492a6;
+    border-radius: 10px;
+    border: 5px solid #ffffffff;
 }
 
 

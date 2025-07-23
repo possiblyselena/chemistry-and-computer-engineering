@@ -2,6 +2,7 @@
 <head>
     <title>Electrochemistry and Engineering</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
     <h1>Electrochemisty and Engineering</h1>
@@ -19,9 +20,16 @@
 
     <div class="pcb">
         <h3>Printed Circuit Boards</h3> 
-        <div class="definition">
+        <div class="section">
+            <div class="definition">
             <p2>what are they?</p2>
-        </div>
+            <img src="assets/pcb.png" width="350px">
+            </div>
+            <div id="3dPCB">
+                <model-viewer src="assets/pathfinder.gltf" camera-controls touch-action="pan-y"></model-viewer>
+                this is a 3D model of a PCB I designed!
+            </div>
+        </div>   
     </div>
 
     <div class="components">
@@ -31,5 +39,5 @@
     <div class="batteries">
         <h3>Batteries</h3>
     </div>
-
+    <script type="module" src="script.js"></script>
 </body>
