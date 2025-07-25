@@ -55,14 +55,12 @@ h2 {
     margin-left: 15em;
     font-style: italic;
     animation: wobble 1s ease-in-out infinite alternate;
-    width: 170px;
 }
 
 h3 {
-    margin-top: 3em;
     color: #ffffff;
-    text-align: left;
-    font-size: 2.5em;
+    text-align: center;
+    font-size: 5em;
     margin-left: 1em;
     font-style: italic;
     animation: flicker 1s infinite alternate;
@@ -76,17 +74,24 @@ a {
     color: #f1c40f;
 }
 
-p1 {
-    font-size: 1.75em;
+p {
     color: #ffffff;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
+
+}
+p1 {
+    font-size: 1.75em;
+    text-align: center;
     line-height: 1.5;
     margin-top: 2em;
 }
 
 p2 {
     color: #ffffff;
+}
+
+p3 {
+    font-size: 1.5em;
 }
 
 model-viewer {
@@ -96,7 +101,7 @@ model-viewer {
 }
 
 .introduction {
-    background-image: url("assets/cuttingmat.jpg");
+    background-color: #ffffff;
     background-size: cover;
     background-position: center;
     margin: 3em;
@@ -121,12 +126,18 @@ model-viewer {
     padding-right: 1em;
 }
 
+.pcb {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    background-image: url("assets/cuttingmat.jpg");
+    margin-top: 2em;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
 }
 
 
