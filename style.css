@@ -94,6 +94,13 @@ p3 {
     font-size: 1.5em;
 }
 
+li {
+    color: #f1c40f;
+    font-size: 1.75em;
+    line-height: 2;
+    text-decoration: underline;
+}
+
 model-viewer {
     width: 600px;
     height: 600px;
@@ -139,6 +146,7 @@ model-viewer {
     justify-content: center;
     align-items: center;
 }
+
 
 
 
